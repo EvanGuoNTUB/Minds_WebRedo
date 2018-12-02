@@ -244,6 +244,11 @@ a{
 .navbar .nav{
 
 }
+.navbar.active{
+	height: 64px;
+	border-bottom: 0px;
+	background-color:#3c71dc;
+}
 .navbar .nav .nav-item{
 	float: left;
 	width: 15%;
@@ -258,10 +263,10 @@ a{
 
 }
 .navbar .nav .nav-link:hover{
-	color: #d5a26f;
+	color: #3c71dc;;
 }
 .navbar .nav .nav-item.active .nav-link{
-	color: #d5a26f;
+	color: #3c71dc;;
 }
 @media (max-width: 880px){
 	.navbar .nav{

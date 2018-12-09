@@ -267,7 +267,8 @@ a{
 }
 .navbar .nav .nav-item{
 	float: left;
-	width: 15%;
+	width: 100%;
+	text-align: center;
 }
 .navbar .nav .nav-link{
 	color: #000;
@@ -308,9 +309,7 @@ a{
 	}
 	.navbar .nav .nav-item{
 		float: none;
-		top: 0;
-		left: 50%;
-		transform: translate(-50%,-50%);
+		
 
 		
 	}
